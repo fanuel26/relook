@@ -102,13 +102,13 @@ li.nav-item:hover a.nav-link {
     background-position: 50%;
 }
 
-.banner1 {
+.banner2 {
     width: 100%;
-    height: 450px;
-    background-image: url(../image/banner/banner.jpeg);
+    height: 500px;
+    background-image: url(../image/banner/18.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 0%;
 }
 
 .footer {

@@ -1,9 +1,9 @@
 <?php
 
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'u161123784_relook');
-define('DB_USERNAME', 'u161123784_relook');
-define('DB_PASSWORD', 'Kekle@95');
+define('DB_NAME', 'relook');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
 
 try{
     $db = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USERNAME, DB_PASSWORD);

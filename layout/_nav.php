@@ -1,5 +1,5 @@
 <header>
-    <section class="bg-1">
+    <section class="bg-1 s">
         <div class="container1">
             <div class="row p-4">
                 <div class="col-md-6 text-left">
@@ -28,7 +28,7 @@
                     <a href="./index.html"><img src="./asset/image/banner/logo.jpeg" class="img-fluid logo"></a>
                 </div>
                 <?php if (!isset($_GET['id'])) : ?>
-                    <div class="col-md-7">
+                    <div class="col-md-7 s">
                         <form action="" class="big ui form">
                             <div class="input-group">
                                 <span class="bg-dark text-white px-4 pt-3 b-l">
@@ -41,7 +41,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-2 s">
                         <h1 class="cart mx-4">
                             <a href="./panier.html">
                                 <i class="fab fa-opencart text-white"></i> <span class="doré size"></span>

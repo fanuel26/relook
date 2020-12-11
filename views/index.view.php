@@ -12,6 +12,25 @@
     .h2 {
         height: 230px;
     }
+
+
+    @media screen and (max-width: 700px) {
+        .h1 {
+            height: 420px;
+        }
+
+        .h2 {
+            height: 350px;
+        }
+
+        .banner {
+            display: none;
+        }
+
+        .s {
+            display: none;
+        }
+    }
 </style>
 
 <section class="banner"></section>
@@ -133,7 +152,7 @@
                                             <?= $produit['description'] ?>
                                         </p>
                                         <div class="mt-4">
-                                            
+
                                             <button class="ui  button">
                                                 Commander
                                             </button>
@@ -180,7 +199,7 @@
     </div>
 </section>
 
-<section class="section banner1">
+<section class="section banner2">
 </section>
 
 
@@ -231,7 +250,7 @@
                                             <?= $produit['description'] ?>
                                         </p>
                                         <div class="mt-4">
-                                            
+
                                             <button class="ui  button">
                                                 Commander
                                             </button>
@@ -245,7 +264,7 @@
                                 <div class="card bg-1 bd h">
                                     <div class="card-img">
                                         <a href="./product.php?id_prod=<?= $produit['id'] ?>"><img src="./produit/<?= $produit['image'] ?>" class="img-fluid bd1 h1 prod-i"></a>
-                                        
+
                                     </div>
                                     <div class="card-body">
                                         <h3 class="text-white"><?= $produit['nom'] ?></h3>
@@ -254,7 +273,7 @@
                                             <?= $produit['description'] ?>
                                         </p>
                                         <div class="mt-4">
-                                            
+
                                             <button class="ui  button">
                                                 Commander
                                             </button>
