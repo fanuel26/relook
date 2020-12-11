@@ -1,0 +1,153 @@
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css';
+
+body {
+    font-size: 16px;
+}
+
+.container1 {
+    width: 100%;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.ptod {
+    width: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .container1 {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.text-dark1 {
+    color: #000000;
+    font-size: 35px;
+}
+
+.bg-1 {
+    background-color: #1f1f1b;
+}
+
+.bg-2 {
+    background-color: #000000;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #b99439;
+}
+
+.logo {
+    width: 120px;
+}
+
+.cart {
+    font-size: 35px;
+}
+
+.doré {
+    color: #b99439;
+}
+.size {
+    font-size: 18px;
+}
+
+li.nav-item a.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+li.nav-item:hover a.nav-link {
+    color: #b99439;
+    font-weight: bold;
+}
+
+.prod-i {
+    width: 100%;
+}
+
+.top {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.ui.form .input-group input.u {
+    border-radius: 0;
+}
+.ui.form .input-group .ui.black.button {
+    border-radius: 0 5px 5px 0;
+}
+
+.ui.form .input-group span {
+    border-radius: 5px 0 0 5px;
+}
+
+.banner {
+    width: 100%;
+    height: 505px;
+    background-image: url(../image/banner/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.banner1 {
+    width: 100%;
+    height: 450px;
+    background-image: url(../image/banner/banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer {
+    width: 100%;
+    height: 450px;
+    background-image: url(../image/banner/fotter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.bd {
+    border-radius: 10px;
+}
+.bd1 {
+    border-radius: 10px 10px 0 0;
+}
+
+.section {
+    margin-top: 70px;
+}
+
+.topi {
+    margin-top: -5px;
+}
+
+.margin {
+    padding-top: 120px;
+}
+
+.margin1 {
+    padding-top: 150px;
+}
+
+ul.ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+ul.ul li {
+    color: #fff;
+}
